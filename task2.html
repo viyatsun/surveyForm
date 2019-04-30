@@ -1,0 +1,75 @@
+<DOCTYPE html>
+  <html>
+    <head>
+      <meta charseet="utf-8">
+      <title>Survey Form</title>
+      <link rel="stylesheet" type="text/css" href="task2.css">
+      <style> 
+      </style>  
+    </head>
+    <body>
+      
+      <h1 class="center">Survey Form</h1>
+      <div class="block">
+      <p class="center">Let us know how we can improve freeCodeCamp</p>
+      <div>
+          <form action="">
+            <div style="display:flex; flex-direction:row;  justify-content: space-around;">
+              <div style="width: 50%; text-align: right;">
+                *Name
+                <p>*Email</p>
+                <p>*Age</p>
+                <p>Which option best describes your currrent role?</p>
+                <p>How likely is that you would recommend freeCodeCamp to a friend?</p>
+                <p id="top1">What do you like most in FCC</p>
+                <p id="top2">Things that should be improved in the future (Check all that apply):</p>
+                <p id="top">Any Comments or Suggestions?</p> 
+          </div>
+              <div style="width: 50%;">
+                <div style="display: flex; flex-direction: column; padding: 0 0 0 5px;">
+                       <input class="text" type="text" placeholder="Enter your name" required><br>
+                    <input class="text" type="text" placeholder="Enter your Email" required><br>
+                    <input class="text" type="text" placeholder="Age" pattern="[0-9]{,3}" required><br>
+                    <select class="select">
+                        <option selected disabled >Select an option</option> 
+                        <option>Student</option</>
+                         <option>FullTime Job</option</>
+                        <option>Full Time Learner</option</>
+                          <option>Prefer not to say</option</>
+                            <option>Other</option>
+                      </select>
+                      <p><input type="radio" name="rad" value="Def">Definetely<br>
+                      <input type="radio" name="rad" value="May">Maybe<br>
+                      <input type="radio" name="rad" value="Ns">Not sure</p>
+                      <select class="select">
+                          <option selected disabled>Select an option</option>
+                          <option>Challenges</option>
+                          <option>Projects</option>
+                          <option>Community</option>
+                          <option>Open source</option>
+                          </select>
+                          <p><input type="checkbox" name="fut" value="fe">Front-end Projects<br>
+                            <input type="checkbox" name="fut" value="be">Back-end Projects<br>
+                            <input type="checkbox" name="fut" value="dv">Data Visualization<br>
+                            <input type="checkbox" name="fut" value="che">Challanges<br>
+                            <input type="checkbox" name="fut" value="ops">Open Source Community<br>
+                            <input type="checkbox" name="fut" value="ghr">Gitter help rooms<br>
+                            <input type="checkbox" name="fut" value="vi">Videos<br>
+                            <input type="checkbox" name="fut" value="cm">City Meetups<br>
+                            <input type="checkbox" name="fut" value="wk">Wiki<br>
+                             <input type="checkbox" name="fut" value="fr">Forum<br>
+                            <input type="checkbox" name="fut" value="ac">Additional Courses</p><br>
+                            <textarea class="textarea"  placeholder="Enter your comment here..." rows="3" cols="50" ></textarea><br>
+                </div>
+              </div>
+            </div>
+          
+        </div>
+        <div class="center"> 
+          <button class="bottum">Submit</button>
+        </form>
+        </div>
+      </div>
+           </body>
+           </html>
+          
